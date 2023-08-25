@@ -1,0 +1,25 @@
+.item {
+    width: 300px;
+    padding: 30px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 20px;
+}
+
+menu {
+    padding-left: 0;
+}
