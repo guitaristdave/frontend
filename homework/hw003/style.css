@@ -7,6 +7,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .content {
     width: 1170px;
     margin-left: auto;
@@ -56,10 +58,9 @@ a {
 }
 
 .header__link, .first__header__link {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
 }
 
@@ -76,10 +77,9 @@ a {
     width: 522px;
     height: 222px;
     color: #000;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     font-style: normal;
-    font-weight: 700;
+    font-family: 'Gilroy-Bold', sans-serif;
     line-height: normal;
     margin-bottom: 17px;
 }
@@ -89,10 +89,9 @@ a {
     height: 48px;
     margin-bottom: 37px;
     color: #888;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-family: 'Gilroy-Medium', sans-serif;
     line-height: normal;
 }
 
@@ -106,10 +105,9 @@ a {
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-family: 'Gilroy-Bold', sans-serif;
     line-height: normal;
     cursor: pointer;
 }
@@ -127,10 +125,9 @@ a {
     border: 0;
     background: transparent;
     color: #AAA;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-family: 'Gilroy-Bold', sans-serif;
     line-height: normal;
     cursor: pointer;
 }
