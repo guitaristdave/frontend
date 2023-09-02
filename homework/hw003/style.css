@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.site__logo {
+    margin-top: 40px;
+}
+
+.header__links {
+    width: 533px;
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__header__link {
+    color: #F25822;
+}
+
+.first__header__link:hover {
+    color: #b9461c;
+}
+
+.first__header__link:active {
+    color: #F25822;
+}
+
+.header__link {
+    color: #000;
+}
+
+.header__link:hover {
+    color: #818181;
+}
+
+.header__link:active {
+    color: #000;
+}
+
+.header__link, .first__header__link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.top__content {
+    display: flex;
+    margin-top: 84px;
+}
+
+.top__info {
+    margin-right: 40px;
+}
+
+.title {
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.text {
+    width: 466px;
+    height: 48px;
+    margin-bottom: 37px;
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.start__button {
+    margin-bottom: 162px;
+    margin-right: 72px;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.start__button:hover {
+    background: #b9461c;
+}
+
+.start__button:active {
+    background: #F25822
+}
+
+.button {
+    outline: none; 
+    border: 0;
+    background: transparent;
+    color: #AAA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #797979;
+}
+
+.button:active {
+    color: #AAA
+}
+
+
+.top_content__pic {
+    width: 545px;
+    height: 375px;
+
+}
+
+.top__logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 50px;
+}
