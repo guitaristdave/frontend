@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020A18;
+}
+
+
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.header-link {
+    text-decoration: none;
+    color:  #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 40px 16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header-link:hover {
+    color: #3A68B8;
+}
+
+.subtitle {
+    color:#3A68B8;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%; /* 71.5px */
+    margin-bottom: 40px;
+}
+
+.dsc {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%; /* 28.8px */
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.fa-play {
+    margin-right: 10px;
+}
+
+.main-link {
+    padding: 1rem 2rem;
+    background-color: #3A68B8;
+    color: #FFF;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left, .main-right {
+    width: 46%;
+}
+
+.main {
+    margin-bottom: 200px;
+}
+
+.logos {
+    margin-bottom: 256px;
+} 
+
+
+.about {
+    margin-bottom: 264px;
+}
+
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-title, .blog-title {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%; /* 52px */
+    margin-bottom: 30px;
+}
+
+.about-dscr {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.about-left, .about-right {
+    width: 40%;
+}
+
+.services {
+    margin-bottom: 256px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    
+}
+
+.item-utd {
+    grid-row: 2 / -1;
+    grid-column: 1 / 3;
+}
+
+.service-item {
+    padding: 30px;
+    border-radius: 10px;
+    background: #132035;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.serv-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 125%; /* 31.25px */
+    opacity: 0.7;
+    margin: 30px;
+}
+
+.serv-pic {
+    margin: 0 auto;
+}
+
+.serv-dscr {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    opacity: 0.7;
+}
+
+
+.blog {
+    margin-bottom: 333px;
+}
+
+.blog-title {
+    margin-bottom: 40px;
+}
+
+.blog-dscr {
+    max-width: 460px;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 25.6px */
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.fa-envelope, .fa-phone, .fa-location-dot{
+    margin-right: 10px;
+    color: #fff;
+}
+
+.fa-twitter, .fa-linkedin-in, .fa-youtube {
+    margin-right: 24px;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+.contact-title {
+    color: #FFF;
+    font-family: Open Sans;    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+
+.info, .site{
+    color: #FFF;
+    font-family: Open Sans;  
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.store-text {
+    color: #FFF;
+    font-family: Open Sans; 
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    opacity: 0.7;
+    max-width: 261px;
+}
