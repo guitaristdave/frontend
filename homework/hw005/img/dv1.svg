@@ -1,0 +1,22 @@
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="15" height="15" fill="#E5E5E5"/>
+<g id="index" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="8106" transform="translate(-652 -3884)" fill="white"/>
+<g id="FUNFACT">
+<g id="Background">
+<rect id="Background_2" x="-652" y="-193" width="1920" height="400" fill="white"/>
+</g>
+<g id="BG">
+<rect id="Rectangle 17" x="-276" y="-92" width="1168" height="198" stroke="#EEEEEE" stroke-width="2"/>
+</g>
+<g id="dots">
+<circle id="Ellipse 4" cx="7.5" cy="7.5" r="7.5" fill="#F3602D"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="8106" fill="white" transform="translate(-652 -3884)"/>
+</clipPath>
+</defs>
+</svg>
